@@ -1,0 +1,47 @@
+nav {
+    background-color: #7C3C7D;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    h1 {
+        font-size: 2rem;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    div {
+        flex: 5;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-left: 5rem;
+        align-items: center;
+    }
+    .icons {
+        gap: 2rem;
+        justify-content: flex-end;
+        margin-right: 4rem;
+    }
+    button {
+        background-color: transparent;
+        border: none;
+        color: #FFF;
+    }
+
+}
+.modal {
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    .main {
+        height: 8rem;
+        width: 7rem;
+        background-color: #7C3C7D;
+    }
+}
+ .btn h1 {
+    color: #7C3C7D;
+    font-size: 3rem;
+ }

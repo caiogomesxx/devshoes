@@ -1,0 +1,22 @@
+.card-cart {
+    height: 15rem;
+    background-color: #FFFFFF;
+    width: 80%;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: auto;
+   
+}
+.card-text  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    font-size: 1rem;
+     
+}
+.delete:hover {
+    color: rgb(216, 1, 1);
+}
